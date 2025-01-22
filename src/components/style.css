@@ -1,0 +1,1544 @@
+.navbar-logo {
+    height: 70px;
+    width: 220px;
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.navbar {
+    background-color: rgb(5, 145, 191);
+}
+
+.logoSection a {
+    font-weight: 600;
+    color: #000;
+}
+
+.logoSection p {
+    font-weight: bold;
+    color: grey;
+}
+
+.navbar li a {
+    color: #fff;
+}
+
+p {
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.banner-left {
+    background: url('/public/assets/images/image\ 49.png') center/cover no-repeat, #013aa5;
+    height: 580px;
+}
+
+.banner-row {
+    width: 90%;
+    margin: auto;
+}
+
+.banner-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 80px 0px 0px 25px;
+}
+
+.banner-left-image {
+    height: 500px;
+    width: 450px;
+}
+
+.banner-left-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner-left h3 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.banner-content {
+    text-align: left;
+}
+
+.banner-left p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.banner-sub-parent .col-md-5 {
+    background-color: #013aa5;
+}
+
+.banner-right {
+    width: 110%;
+    height: 100%;
+    border-radius: 50% 0px 0px 50%;
+    overflow: hidden;
+    position: relative;
+    right: 50px;
+}
+.banner-right .background-video{
+    height: 100%;
+    width: 100%;
+    object-fit: unset;
+}
+.Banner-section-parent{
+    overflow-x: hidden;
+}
+.Reviews-sub-parent {
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-block: 50px;
+}
+
+.review-content h3 {
+    font-size: 22px;
+}
+
+.review-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: rgb(23, 114, 204);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.google-image {
+height: 70px;
+    width: 200px;
+    margin: 15px auto;
+}
+
+.Reviews-sub-parent .col-md-10 {
+    border-right: 3px solid green;
+    padding-right: 40px;
+}
+
+.google-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.excellence-sub-parent {
+    background-image: url('/public/assets/images/Rectangle 48.png');
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-block: 50px;
+    background-size: 100% 100%;
+}
+
+.excellence-image {
+    height: 400px;
+    width: 370px;
+    background: #fff;
+    border-radius: 30px 0 0 30px;
+}
+
+.excellence-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.excellence-sub-parent .row {
+    border-radius: 30px;
+}
+
+.excellence-sub-parent .bg-white {
+    border-radius: 0 30px 30px 0;
+}
+
+.excellence-content {
+    padding: 40px 30px 30px 30px;
+}
+
+.excellence-content h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #08749B;
+    padding-block: 10px;
+}
+
+.excellence-content-sub {
+    border-top: 3px solid #08749b;
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.onlineAppointment {
+    display: flex;
+    gap: 10px;
+}
+
+.onlineAppointment i {
+    margin-top: 3px;
+    color: #08749b;
+}
+
+.badge {
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    height: 135px;
+    width: 135px;
+}
+
+.badge img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.badge-text {
+    position: absolute;
+    top: 15px;
+    left: 30%;
+}
+
+.counter-sub-parent .text-white {
+    background-color: rgb(17 134 173);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.education-sub {
+    background: rgb(17 134 173);
+}
+
+.education-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.education-image:hover img {
+    transform: scale(1.1);
+}
+
+.education-image img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+.patient-education-parent {
+    background-color: rgb(242, 242, 241);
+    height: fit-content;
+    padding-bottom: 70px;
+}
+
+.patient-education-sub h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(17 134 173);
+    padding-block: 40px;
+}
+
+.educationText {
+    padding: 15px 20px 20px 20px;
+    color: #fff;
+    min-height: 200px;
+}
+
+.counter-sub-parent .col-md-6:nth-child(1) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-content1 p,
+.footer-content1 a,
+.footer-links a {
+    font-weight: 600;
+}
+.footer-links h5{
+    margin-bottom: 10px;
+}
+.counter-sub-parent {
+    color: rgb(2, 83, 110);
+    font-weight: 600;
+    padding: 60px 40px;
+}
+
+.counter-sub-parent h2 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.counter-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.maps {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.maps-sub-1 {
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.locations-parent video {
+    width: 100%;
+    height: 100%; /* Ensures it covers the parent container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover; /* Ensures the video scales properly */
+}
+.locations-parent {
+    /* background-image: url('/public/assets/images/Spinal 1.png'); */
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-block: 50px;
+    background-size: 100% 100%;
+}
+
+.maps-text {
+    padding: 10px 10px 30px 10px;
+}
+
+.locationHeading.text-center {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.maps button {
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+}
+
+.navbar-nav a {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.orthoneeds-main-image {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.orthoneeds-main-image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+
+
+
+.orthoneeds-main-image:hover img {
+    transform: scale(1.1);
+}
+
+.orthoneeds-sub.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.firstRow {
+    background: #fff;
+    padding: 20px 15px;
+}
+
+.orthoneeds-parent-sub {
+    width: 95%;
+    margin: auto;
+}
+
+.orthoneeds-parent {
+    background-color: #08749b;
+}
+
+.orthoneeds-child {
+    height: 180px;
+    /* width: 200px; */
+    align-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.orthoneeds-child img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.specialities-image {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.specialities-image img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.specialities-image:hover img {
+    transform: scale(1.1);
+}
+
+.deals-content {
+    width: 100%;
+    height: 115px;
+    padding: 30px 50px;
+    background: #fff;
+    border-right: 6px solid #000;
+}
+
+.deals-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.sepecialities-content button {
+    padding: 6px 12px;
+    border: none;
+    margin-top: 15px;
+}
+
+.Deals-parent {
+    height: fit-content;
+    color: white;
+    background: #031735;
+    z-index: 1;
+}
+
+.Deals-parent .col-md-5 {
+    padding: 0;
+}
+
+.sepecialities-content {
+    padding-left: 20px;
+}
+
+.footer-parent {
+    background-image: url('/public/assets/images/Frame (2).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: fit-content;
+    color: white;
+    position: relative;
+}
+
+.footer-abs-image {
+    position: relative;
+    height: 60px;
+}
+
+.footer-abs-image img:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.footer-content1 {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-end {
+    width: 100%;
+    height: 100px;
+}
+
+.footer-end img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-links li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+.footer-links ul {
+    padding: 0;
+}
+
+.footer-address {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-address i {
+    margin-top: 5px;
+}
+
+.footer-address p:nth-child(1) {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.footer-parent a {
+    color: #000;
+}
+
+.footer-contact {
+    margin-top: 10px;
+}
+
+.orthoneeds-content h4 {
+    color: #048572;
+    font-weight: bold;
+}
+.orthoneeds-child h5 {
+    color: #021076;
+    font-size: 13px;
+}
+.orthoneeds-sub .col-6.col-md-3{
+    padding: 4px;
+}
+.rating-stars i {
+    color: gold;
+}
+
+.navbar-parent {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+}
+
+.banner-sub-parent {
+    padding-top: 125px;
+
+}
+
+/* contact modal */
+
+.modal-footer {
+    display: flex;
+    justify-content: center !important;
+    border: none !important;
+    gap: 20px;
+}
+
+.modal-footer button {
+    width: 45%;
+    padding: 8px;
+    border: none;
+    color: #fff;
+}
+
+.modal-locations {
+    display: flex;
+    font-size: 14px;
+    border-bottom: 1px solid #cfcece;
+    padding-bottom: 15px;
+}
+.modal-body-div2-sub {
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal-timings{
+    width: 50%;
+}
+.modal-timings input{
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+}
+.modal-timings input,.modal-timings select{
+    width: 70%;
+    padding: 5px;
+    border-radius: 0px;
+    outline: none;
+}
+.time-heading{
+    font-size: 18px;
+    padding-block: 10px;
+}
+.modal-header {
+    background: #08749B;
+    color: #fff;
+}
+.modal-body-div2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cfcece;
+}
+.contact-location .d-flex {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.contact-location input{
+    margin-top: 3px;
+}
+
+.modal-footer button:nth-child(1) {
+    background-color: #08a923;
+}
+
+.modal-footer button:nth-child(2) {
+    background-color: #e62d0d;
+}
+.banner-sub-parent button a{
+    color: #fff;
+}
+.review-content img {
+    height: 190px;
+    width: 190px;
+}
+.orthoneeds-sub.text-center .col-lg-3{
+    padding: 4px;
+}
+/* media queries */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:320px) {
+    .banner-left-image {
+        height: 350px;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .d-flex.gap-4.align-items-center {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .deals-content {
+        padding: 20px 50px;
+        border: 1px solid #f1f1f1;
+    }
+    .Deals-parent video{
+        width: 100% !important;
+    }
+    .educationText{
+        min-height: fit-content;
+    }
+    .review-content img {
+        height: 150px;
+        width: 150px;
+    }
+    .navbar-collapse {
+        padding-left: 10px;
+    }
+    .modal-locations {
+        flex-direction: column;
+    }
+    .time-heading {
+        font-size: 14px;
+    }    
+    .modal-timings {
+        width: 100%;
+    }
+    .modal-timings input, .modal-timings select {
+        margin-block: 5px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .modal-footer button {
+        width: fit-content;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .modal-timings label{
+        font-size: 14px;
+    }
+    .modal-locations p{
+        font-size: 14px;
+    }
+    
+    .excellence-content-sub {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .excellence-content-sub h5 {
+        font-size: 14px;
+    }
+
+    .onlineAppointment i {
+        margin-top: 0;
+    }
+
+    .excellence-content h4 {
+        font-size: 24px;
+    }
+
+    .excellence-sub-parent .row {
+        padding: 0;
+        margin: 0;
+        gap: 25px;
+    }
+
+    .counter-content {
+        font-size: 12px;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+
+    .counter-sub-parent h2 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .excellence-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    .badge {
+        height: 110px;
+        width: 90px;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .navbar-toggler {
+        border: none !important;
+        outline: none !important;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+    }
+
+    .Reviews-sub-parent .col-md-10 {
+        border-right: none;
+        padding: 0;
+    }
+
+    .badge-text {
+        left: 16%;
+    }
+
+    .badge {
+        right: 20px;
+    }
+
+    .excellence-image {
+        background: transparent;
+    }
+
+    .navbar-expand-lg .container {
+        justify-content: flex-end !important;
+    }
+
+    .counter-sub-parent {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .banner-left {
+        flex-direction: column-reverse;
+        padding: 10px;
+        height: fit-content;
+        padding-top: 80px;
+    }
+
+    .banner-left-image {
+        height: 370px;
+        width: 300px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-left h3 {
+        font-size: 28px;
+    }
+
+    .Reviews-sub-parent {
+        padding-block: 20px;
+    }
+
+    .excellence-content {
+        padding: 25px 10px 30px 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .review-text {
+        text-align: center;
+    }
+
+    .excellence-content p:first-child {
+        margin-top: 10px;
+    }
+
+    .excellence-sub-parent .bg-white {
+        border-radius: 0;
+    }
+
+    .counter-sub-parent .col-md-6:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .orthoneeds-child h5 {
+        font-size: 13px;
+    }
+
+    .orthoneeds-sub.text-center .col-md-6 {
+        padding: 8px;
+    }
+
+    .counter-sub-parent .text-white {
+        height: 70px;
+        width: 75px;
+    }
+
+    .locations-parent {
+        padding-block: 30px;
+    }
+
+    .maps-text {
+        padding: 10px 5px 20px 5px;
+    }
+
+    .maps button {
+        width: 150px;
+        padding: 5px 15px;
+    }
+
+    .maps {
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .orthoneeds-child {
+        /* height: 180px; */
+        width: 100%;
+    }
+
+    .specialities-image {
+        height: 320px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .orthoneeds-child {
+        margin-top: 0;
+    }
+
+    .orthoneeds-sub.text-center {
+        margin-top: 20px;
+    }
+
+    .counter-sub-parent .text-white {
+        font-size: 26px;
+    }
+
+    .sepecialities-content {
+        padding: 20px;
+    }
+
+    .sepecialities-content p {
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+    .sepecialities-content li{
+        font-size: 14px;
+    }
+
+    .patient-education-sub h2 {
+        font-size: 28px;
+        padding: 20px 0 0px 0;
+    }
+    .banner-left p {
+        width: 100%;
+    }
+
+    .educationText p {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .banner-right {
+        width: 100%;
+        border-radius: 0;
+        right: 0;
+    }
+    .patient-education-parent {
+        padding-bottom: 30px;
+    }
+
+    .footer-abs-image img:nth-child(2) {
+        height:80px;
+        width: 100px;
+    }
+
+    .footer-abs-image img:nth-child(1) {
+        height:70px;
+        width:70px;
+    }
+
+    .education-sub {
+        margin-top: 15px;
+    }
+
+    .footer-end {
+        height: 50px;
+    }
+
+    .footer-parent {
+        background-size: cover;
+    }
+
+    .footer-content1 {
+        width: 95%;
+        /* margin: auto; */
+    }
+
+    .footer-content1 p,
+    .footer-contact a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .footer-links {
+        font-weight: 600;
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .orthoneeds-parent-sub .firstRow {
+        padding: 10px 0 0 0;
+    }
+
+    .orthoneeds-main-image {
+        height: 280px;
+        margin-bottom: 20px;
+    }
+
+    .orthoneeds-content p,
+    .maps-text p {
+        font-size: 12px;
+    }
+
+    .locationHeading.text-center {
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .counter-sub-parent .d-flex.gap-5.align-items-center {
+        gap: 20px !important;
+    }
+    .logoSection p {
+        font-size: 14px;
+    }
+    .logoSection a {
+        font-size: 14px;
+    }
+    .navbar-logo {
+        height: 70px;
+        width: 160px;
+    }
+    .locations-parent{
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:766px) {
+    .banner-left p {
+        margin: auto !important;
+    }
+    .banner-right{
+        width: 100%;
+        right: 0;
+        border-radius: 0;
+    }
+    .counter-content {
+        font-size: 12px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .counter-sub-parent h2 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .excellence-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    .badge {
+        height: 120px;
+        width: 110px;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Reviews-sub-parent .col-md-10 {
+        border-right: none;
+        padding-right: 15px;
+    }
+
+    .badge-text {
+        left: 25%;
+    }
+
+    .badge {
+        right: 17%;
+    }
+
+    .excellence-sub-parent .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .patient-education-parent {
+        padding-bottom: 40px;
+    }
+
+    .excellence-image {
+        background: transparent;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .navbar-expand-lg .container {
+        justify-content: flex-end !important;
+    }
+
+    .counter-sub-parent {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .banner-left {
+        flex-direction: column-reverse;
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .banner-left-image {
+        height: 350px;
+        width: 50%;
+    }
+
+    .banner-content {
+        text-align: center;
+        width: 65%;
+    }
+
+    .banner-left h3 {
+        font-size: 28px;
+    }
+
+    .Reviews-sub-parent {
+        padding-block: 30px;
+    }
+
+    .excellence-content {
+        padding: 25px 20px 30px 20px;
+        font-size: 14px;
+    }
+
+    .excellence-content p:first-child {
+        margin-top: 10px;
+    }
+
+    .excellence-sub-parent .bg-white {
+        border-radius: 0;
+    }
+
+    .counter-sub-parent .col-md-6:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .orthoneeds-child h5 {
+        font-size: 16px;
+    }
+
+    .orthoneeds-sub.text-center .col-md-6 {
+        padding: 8px;
+    }
+
+    .counter-sub-parent .text-white {
+        height: 70px;
+        width: 70px;
+        font-size: 32px;
+    }
+
+    .maps {
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .orthoneeds-child {
+        height: 180px;
+        width: 100%;
+    }
+
+    .specialities-image {
+        height: 350px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sepecialities-content {
+        padding: 20px;
+    }
+
+    .sepecialities-content p {
+        padding: 10px 0px;
+    }
+
+    .patient-education-sub h2 {
+        font-size: 28px;
+        padding-block: 20px;
+        padding-bottom: 0px;
+    }
+
+    .education-sub {
+        margin-top: 15px;
+    }
+
+    .footer-parent {
+        background-size: cover;
+    }
+
+    .footer-end {
+        height: 80px;
+    }
+
+    .footer-content1 {
+        width: 95%;
+        /* margin: auto; */
+    }
+
+    .footer-content1 p,
+    .footer-contact a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .footer-links {
+        font-weight: 600;
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+
+    .footer-links h5 {
+        margin-bottom: -10px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .orthoneeds-parent-sub .firstRow {
+        padding: 10px 0 0 0;
+    }
+
+    .orthoneeds-main-image {
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .orthoneeds-content p,
+    .maps-text p {
+        font-size: 14px;
+    }
+
+    .locationHeading.text-center {
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .counter-sub-parent .d-flex.gap-5.align-items-center {
+        gap: 20px !important;
+    }
+
+}
+
+@media screen and (min-width:766px) and (max-width:767px) {
+
+
+    .excellence-image {
+        width: 380px !important;
+        margin: auto;
+        background-color: transparent;
+        padding-bottom: 20px;
+    }
+
+    .badge {
+        right: 25% !important;
+    }
+
+    .excellence-sub-parent .row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .excellence-sub-parent .bg-white {
+        border-radius: 0;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .footer-content1 {
+        width: 96%;
+        margin: auto;
+    }    
+    .educationText {
+        padding: 15px 18px 20px 20px;
+    }
+    .banner-left {
+        height: 400px;
+    }
+
+    .banner-left-image {
+        height: 400px;
+        padding-top: 30px;
+    }
+
+    .excellence-content p {
+        font-size: 14px;
+    }
+
+    .excellence-content h4 {
+        font-size: 22px;
+    }
+
+    .onlineAppointment h5 {
+        font-size: 16px;
+    }
+
+    .excellence-content-sub {
+        padding-top: 14px;
+    }
+
+    .footer-content1 p,
+    .footer-content1 a,
+    .footer-parent a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .educationText h5{
+        font-size: 18px;
+    }
+    .educationText p{
+        font-size: 14px;
+    }
+
+    .orthoneeds-sub.text-center .col-6.col-md-6 {
+        padding: 5px;
+    }
+
+    .orthoneeds-content.text-center p {
+        font-size: 12px;
+    }
+
+    .google-image {
+        width: 100%;
+    }
+
+    .footer-end {
+        height: 100px;
+    }
+
+    .navbar-expand-lg .container {
+        justify-content: flex-end !important;
+    }
+
+    .counter-sub-parent .col-md-6:nth-child(1) {
+        justify-content: center;
+    }
+
+    .counter-sub-parent h2 {
+        font-size: 28px;
+    }
+
+    .orthoneeds-child {
+        height: 150px;
+        width: 100%;
+    }
+
+    .orthoneeds-child h5 {
+        font-size: 14px;
+    }
+
+    .excellence-content {
+        padding: 40px 20px 0px 40px;
+    }
+
+    .excellence-image {
+        height: 400px;
+        width: 115%;
+    }
+
+    .maps-text p {
+        font-size: 14px;
+    }
+
+    .badge {
+        right: -45px;
+        top: -10px;
+        height: 120px;
+        width: 102px;
+    }
+
+    .badge-text {
+        left: 20%;
+    }
+
+    .banner-left h3 {
+        font-size: 30px;
+    }
+
+    .banner-left p {
+        font-size: 16px;
+    }
+
+    .banner-left {
+        padding: 0px 0px 0px 20px;
+    }
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .navbar-nav a {
+        font-weight: 600;
+        font-size: 12px;
+    }    
+    .excellence-content p{
+        font-size: 15px;
+    }
+    .excellence-content h4 {
+        font-size: 25px;
+    }
+    .google-image {
+        width: 100%;
+    }
+
+    .educationText {
+        padding: 10px 10px;
+    }
+
+    .educationText p {
+        padding-top: 10px;
+    }
+    .badge-text {
+        left: 24%;
+    }
+
+
+    .banner-left {
+        padding: 80px 0px 0px 20px;
+    }
+
+    .navbar-expand-lg .container {
+        justify-content: flex-end !important;
+    }
+
+    .counter-sub-parent .col-md-6:nth-child(1) {
+        justify-content: center;
+    }
+
+    .counter-sub-parent h2 {
+        font-size: 28px;
+    }
+
+    .orthoneeds-child {
+        height: 150px;
+        width: 100%;
+    }
+
+    .orthoneeds-child h5 {
+        font-size: 14px;
+    }
+
+    .excellence-content {
+        padding: 20px 10px 20px 30px;
+    }
+    .excellence-image {
+        height: 400px;
+        width: 115%;
+    }
+    .badge {
+        right: -40px;
+        top: -10px;
+        height: 120px;
+        width: 120px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1350px){
+    .excellence-image {
+        width: 107%;
+    }
+    .excellence-content p{
+        font-size: 14px;
+    }
+}
+
+/* Dropdown styling for Patient Education */
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0591bf;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #005BB5;  
+      color: white;
+}
+
+/* Submenu styles */
+.dropdown-item.dropdown-toggle {
+    position: relative;
+}
+
+.dropdown-item.dropdown-toggle::after {
+    /* content: '▸'; */
+    float: right;
+    /* margin-left: 0.5rem; */
+    transform: rotate(270deg);
+    position: relative;
+    top: 11px;
+    font-size: 20px;
+}
+.dropdownsubitemHoverLast{
+    position: relative;
+}
+/* Submenu styles - Fixed hover issue */
+.dropdown-item.dropdown-toggle {
+    position: relative;
+}
+
+.dropdown-submenu {
+    display: none;
+    position: absolute;
+    top: 0; /* Aligns submenu with the parent */
+    left: 100%; /* Positions submenu adjacent to the parent */
+    background-color: #0591bf;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu,
+.dropdown-item.dropdown-toggle:hover + .dropdown-submenu,
+.dropdown-submenu:hover {
+    display: block;
+}
+
+.dropdown-submenu .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+
+.dropdown-submenu .dropdown-item:hover {
+    background-color: #005BB5;
+}
+
+
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  
+    .dropdown-menu {
+        position: static;
+        display: block;
+    }
+
+    .dropdown-submenu {
+        position: static;
+        display: block;
+    }
+}
+
+@media screen and (max-width:991px){
+    .dropdown-toggle::after{
+        display: none !important;
+    }
+    .banner-left {
+        padding-top: 80px;
+    }
+}

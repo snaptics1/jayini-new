@@ -1,0 +1,343 @@
+.About-banner-content {
+    background-image: url('/public/assets/images/Frame 64.png'), linear-gradient(to right, #10bb10, #49496e);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: fit-content;
+    color: #ffff;
+    padding: 180px 0 50px 0;
+}
+.banner-text{
+    width: 83%;
+    margin: auto;
+}
+.about-content-parent{
+position: relative;
+}
+.about-abs-image{
+    height: 180px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
+.about-abs-image img{
+    height: 100%;
+    width: 100%;
+}
+.about-mainimage{
+    width: 75%;
+    margin: auto;
+    height: 500px;
+    position: relative;
+}
+.about-mainimage img{
+    height: 100%;
+    width: 100%;
+}
+.about-main-content {
+    width: 80%;
+}
+.about-buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.about-buttons button:nth-child(1){
+    background-color: #08749b;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+.about-main-content h4{
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.about-buttons button:nth-child(2){
+    background-color: #15bc68;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+.about-content-sub {
+    padding: 40px 0px 50px 0px;
+}
+.about-doctor-text{
+    position: absolute;
+    right: 0;
+    width: 82.15%;
+    text-align: center;
+    padding: 10px 20px;
+    background: #08749b;
+    color: #fff;
+    border-radius: 0 0 0 20px;
+}
+.about-buttons a{
+    color: #fff;
+}
+.whtchoose-content{
+    background: url('/public/assets/images/choose-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: fit-content;
+    color: #ffff;
+    padding: 50px 40px 60px 40px;
+}
+.about-us-page-parent .counter-parent {
+    margin: 100px 0px 60px 0px;
+}
+.whtchoose-content h2{
+    width: 90%;
+    margin: auto;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.whtchoose-content-sub i {
+    background-color: #49496e;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whtchoose-content-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+}
+
+ .about-review-image{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto 15px auto;
+ }
+ .about-review-image img{
+    height: 100%;
+    width: 100%;
+ }
+ .about-review-text {
+    background: #0591bf;
+    color: #fff;
+    padding: 30px 30px 40px 30px;
+    position: relative;
+    min-height: 360px;
+}
+.ABoutReviews-parent {
+    margin-top: 70px;
+    background: #f3f3f3;
+    padding: 170px 80px 60px 80px;
+}
+
+@media screen and (max-width:575px){
+    .banner-text{
+        text-align:center;
+    }
+    .about-mainimage {
+        width: 100%;
+        margin: auto;
+        height: 300px;
+    }
+    .about-doctor-text {
+        position: relative;
+        width: 100%;
+    }
+    .about-main-content {
+        width: 100%;
+        padding-top: 150px;
+    }
+    .about-main-content p{
+        font-size: 14px;
+    }
+    .about-buttons button{
+        font-size: 14px;
+    }
+    .about-us-page-parent .counter-parent {
+        margin: -25px 0px 10px 0px;
+    }
+    .whtchoose-content{
+    padding: 25px 10px 25px 10px;
+    }
+    .whtchoose-content h2{
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .whtchoose-content-sub {
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .whtchoose-content-sub p{
+        font-size: 14px;
+    }
+    .ABoutReviews-parent{
+        margin-top: 25px;
+        padding: 0;
+    }
+    .about-review-image{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 20px;
+        height: 120px;
+        width: 120px;
+    }
+    .about-buttons {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .educationText {
+        text-align: center;
+    }
+    .locationHeading p{
+        text-align: justify;
+    }
+    .about-content-sub{
+        text-align: center;
+    }
+    .about-review-text {
+        padding: 20px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .about-review-text p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .about-review-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:766px){
+    .banner-text{
+        text-align:center;
+    }
+    .about-mainimage {
+        width: 320px; 
+        margin: auto;
+        height: 300px;
+    }
+    .about-doctor-text {
+        position: relative;
+        width: 100%;
+    }
+    .about-main-content {
+        width: 100%;
+        padding-top: 150px;
+        text-align: center;
+    }
+    .about-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .about-main-content p{
+        font-size: 14px;
+    }
+    .about-buttons button{
+        font-size: 14px;
+    }
+    .about-us-page-parent .counter-parent {
+        margin: -25px 0px 10px 0px;
+    }
+    .whtchoose-content{
+    padding: 25px 10px 25px 10px;
+    }
+    .whtchoose-content h2{
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .whtchoose-content-sub {
+        padding: 0;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .whtchoose-content-sub p{
+        font-size: 14px;
+    }
+    .ABoutReviews-parent{
+        margin-top: 25px;
+        padding: 0;
+    }
+    .about-review-image{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 20px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .about-review-text {
+        padding: 20px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .about-review-text p{
+        font-size: 14px;
+    }
+    .about-review-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:767px) and (max-width:991px){
+    .ABoutReviews-parent {
+        margin-top: 30px;
+        background: #f3f3f3;
+        padding: 160px 30px 35px 30px;
+    }
+    .about-review-text {
+        padding: 60px 30px 40px 30px;
+    }
+    .about-review-image {
+        height: 130px;
+        width: 130px;
+        top: -30%;
+        left: 30%;
+    }
+    .whtchoose-content h2 {
+        width: 100%;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .whtchoose-content{
+        padding: 50px 20px 10px 20px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .ABoutReviews-parent {
+        padding: 120px 50px 60px 50px;
+    }
+    .about-review-image {
+        height: 130px;
+        width: 130px;
+        top: -25%;
+        left: 30%;
+    }
+    .footer-end {
+        height: 130px;
+    }
+}
