@@ -3,7 +3,7 @@ import React from 'react'
 const WhyChoose = () => {
     return (
         <>
-            <div className='whychoose-parent'>
+            <div className='whychoose-parent' id="ourMission"> 
                 <div className='why-choose-sub-parent'>
                     <div className="container">
                         <div className='whtchoose-content'>

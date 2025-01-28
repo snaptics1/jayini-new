@@ -94,7 +94,9 @@ const Locations = () => {
           </div>
         </div>
       </div>
-      <div className="homepageOurLocationsSection py-5" style={{background:"#031735"}}>
+      <div className="homepageOurLocationsSection py-5 d-none" 
+      // style={{background:"#031735"}}
+      >
       <div className="locationHeading text-center">
           <h2>Our Locations</h2>
           <p>
@@ -194,7 +196,7 @@ const Locations = () => {
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
                           <img
-                            src="/assets/images/Hip Replacement.png"
+                            src="/assets/images/shin.png"
                             alt=""
                           />
                           <h5>Regenerative Orthopaedics</h5>
@@ -212,14 +214,14 @@ const Locations = () => {
                       </div>
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
-                          <img src="/assets/images/Arthroscopy.png" alt="" />
+                          <img src="/assets/images/technology.png" alt="" />
                           <h5>Robotic Treatments</h5>
                         </div>
                       </div>
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
                           <img
-                            src="/assets/images/Sports Medicine.png"
+                            src="/assets/images/bone-joint.png"
                             alt=""
                           />
                           <h5>Joint Replacement
@@ -230,7 +232,7 @@ const Locations = () => {
                       {/* second row */}
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
-                          <img src="/assets/images/Arthroscopy.png" alt="" />
+                          <img src="/assets/images/spine-care.png" alt="" />
                           <h5>Spine Care
                           </h5>
                         </div>
@@ -243,14 +245,14 @@ const Locations = () => {
                       </div>
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
-                          <img src="/assets/images/Arthroscopy.png" alt="" />
+                          <img src="/assets/images/shin.png" alt="" />
                           <h5>General Orthopaedics
                           </h5>
                         </div>
                       </div>
                       <div className="col-6 col-lg-3 col-md-4">
                         <div className="orthoneeds-child">
-                          <img src="/assets/images/Arthroscopy.png" alt="" />
+                          <img src="/assets/images/physical-therapy.png" alt="" />
                           <h5>Advanced Physiotherapy
                           </h5>
                         </div>
@@ -264,7 +266,7 @@ const Locations = () => {
         </div>
       </div>
       <div>
-        {/* <Deals /> */}
+        <Deals />
       </div>
     </>
   );

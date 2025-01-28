@@ -9,6 +9,8 @@ import PatientEducation from "./components/education/PatientEducation";
 import ContactUspage from "./components/contact/ContactUspage";
 import { useEffect } from "react";
 import Blogsingle from "./components/blogsingle/Blogsingle";
+import Gallery from "./components/gallery/Gallery";
+import PhysiotherapyTabs from "./components/physiotherapy/PhysiotherapyTabs";
 
 function App() {
   return (
@@ -22,9 +24,15 @@ function App() {
           <Route path="/patient-education" element={<PatientEducation />} />
           <Route path="/contact-us" element={<ContactUspage />} />
           <Route path="/blog-single" element={<Blogsingle />} />
+          <Route path="/physiotherapy" element={<PhysiotherapyTabs />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <div class="floating_btn">
-        <a target="_blank" rel="noopener noreferrer" href="https://wa.me/919137454545?text=Hi%20Jayini%20Clinics%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20services">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/919137454545?text=Hi%20Jayini%20Clinics%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20services"
+          >
             <div class="contact_icon">
               <i class="fa fa-whatsapp my-float"></i>
             </div>

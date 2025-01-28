@@ -1,0 +1,14 @@
+
+.Gallerybanner-content{
+  background-color: rgb(25 135 84);
+   height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Gallerybanner-content h1{
+  font-weight: 700;
+  align-content: center;
+  color: #fff;
+}
