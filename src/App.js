@@ -11,6 +11,8 @@ import { useEffect } from "react";
 import Blogsingle from "./components/blogsingle/Blogsingle";
 import Gallery from "./components/gallery/Gallery";
 import PhysiotherapyTabs from "./components/physiotherapy/PhysiotherapyTabs";
+import YashwanthPokala from "./components/doctor-desc/YashwanthPokala";
+import JayiniRammohen from "./components/doctor-desc/JayiniRammohen ";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/blog-single" element={<Blogsingle />} />
           <Route path="/physiotherapy" element={<PhysiotherapyTabs />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/yasnwanth-pokala" element={<YashwanthPokala/>} />
+          <Route path="/JayiniRammohen" element={<JayiniRammohen/>} />
         </Routes>
         <div class="floating_btn">
           <a

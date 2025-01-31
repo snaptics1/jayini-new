@@ -1552,6 +1552,9 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .about-us-page-parent .counter-sub-parent{
+    margin-top: 50px;
+  }
 
     .tabsContainerParent {
         flex-direction: column !important;
@@ -1570,4 +1573,11 @@ a {
 .excerciseImage img {
   height: 200px;
   width: 200px;
+}
+.commonButton{
+  background-color: #08749b;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
 }
