@@ -69,10 +69,10 @@ const AboutBanner = () => {
                             <div className="col-md-5">
                                 <div className='about-main-content'>
                                     <p><b>About</b> </p>
-                                    <h4 className='text-success'>Dr Yashwant </h4>
-                                    <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has over 25+ years of experience.</p>
+                                    <h4 className='text-success'>Dr Yaswanth Pokala</h4>
+                                    <p>Yaswanth Pokala is an experienced Physiotherapist and Ergonomist with over 10 years of experience. </p>
                                     <br />
-                                    <p>His expertise includes cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
+                                    <p>His expertise includes sports injury rehabilitation, post-operative recovery, shoulder rotator cuff injuries, knee ligament & meniscus tears, slipped disc management, ergonomics, vertigo management, stroke rehabilitation, dry needling, cupping, and strength conditioning.</p>
 
                                     <div className='about-buttons'>
                                         <button><Link to='/contact-us'>Book Appointment</Link></button>
@@ -87,8 +87,9 @@ const AboutBanner = () => {
                                 <div className='about-mainimage'>
                                     <img src="/assets/images/Group 47652.png" alt="" />
                                     <div className='about-doctor-text'>
-                                        <h5>Dr Yashwant</h5>
-                                        <small>One of the Best Orthopedic Doctors In Hyderabad</small>
+                                        <h5>Dr Yaswanth Pokala</h5>
+                                        <small>Head of Physiotherapy
+                                        </small>
 
                                     </div>
                                 </div>
