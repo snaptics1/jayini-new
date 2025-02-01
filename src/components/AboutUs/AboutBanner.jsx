@@ -45,7 +45,7 @@ const AboutBanner = () => {
                                     <br />
                                     <p>His expertise includes cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
 
-                                    <button className='bgn btn-success  mt-3  commonButton'><a className='text-white' href="/JayiniRammohen">Read More</a></button>
+                                    <button className='bgn btn-success  mt-3  commonButton'><Link className='text-white' to="/JayiniRammohen">Read More</Link></button>
 
                                     <div className='about-buttons'  id='aboutYashwanth'>
                                         <button><Link to='/contact-us'>Book Appointment</Link></button>
@@ -76,7 +76,7 @@ const AboutBanner = () => {
                                     <br />
                                     <p>His expertise includes sports injury rehabilitation, post-operative recovery, shoulder rotator cuff injuries, knee ligament & meniscus tears, slipped disc management, ergonomics, vertigo management, stroke rehabilitation, dry needling, cupping, and strength conditioning.</p>
 
-                                    <button className='bgn btn-success  mt-3  commonButton'><a className='text-white' href="/yasnwanth-pokala">Read More</a></button>
+                                    <button className='bgn btn-success  mt-3  commonButton'><Link className='text-white' to="/yasnwanth-pokala">Read More</Link></button>
 
                                     <div className='about-buttons'>
                                         <button><Link to='/contact-us'>Book Appointment</Link></button>

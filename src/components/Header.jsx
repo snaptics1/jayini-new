@@ -109,37 +109,43 @@ const Header = () => {
                   </Link>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/patient-education">
                         Shoulder
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/patient-education">
                         Elbow
                       </Link>
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/patient-education">
                         Wrist & Hand
                       </Link>
                     </li>
-                    <li className="dropdownsubitemHoverLast">
-                      <Link className="dropdown-item dropdown-toggle" to="#">
+                    <li>
+                      <Link className="dropdown-item" to="/patient-education">
                         Knee
                       </Link>
-                      {/* <ul className="dropdown-submenu">
-                                                <li><Link className="dropdown-item" to="#">Arthritis</Link></li>
-                                                <li><Link className="dropdown-item" to="#">Injuries</Link></li>
-                                            </ul> */}
                     </li>
                     <li>
-                      <Link className="dropdown-item" to="#">
+                      <Link className="dropdown-item" to="/patient-education">
                         Spine
                       </Link>
                     </li>
-                    <li>
-                      <Link className="dropdown-item" to="#">
+                    <li className="dropdownsubitemHoverLast">
+                      <Link className="dropdown-item dropdown-toggle" to="/patient-education">
                         General
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/patient-education">
+                        Hip
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="dropdown-item" to="/patient-education">
+                        Foot and Ankle
                       </Link>
                     </li>
                   </ul>

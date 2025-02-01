@@ -1524,7 +1524,9 @@ a {
 .dropdown-submenu .dropdown-item:hover {
   background-color: #005bb5;
 }
-
+.modal-img {
+  object-fit: contain;
+}
 /* Ensure responsiveness */
 @media (max-width: 768px) {
     .Gallryprev-btn,
@@ -1581,3 +1583,8 @@ a {
   padding: 8px 20px;
   border-radius: 25px;
 }
+
+
+/* patient education tabs */
+
+

@@ -18,9 +18,7 @@ const YashwanthPokala = () => {
               Certified Dry Needling Practitioner | Certified Temporomandibular
               Disorder Specialist
             </p>
-            <a href="#about" className="btn btn-lg mt-3 text-white" style={{backgroundColor: 'rgb(5 145 191)'}}>
-              Learn More
-            </a>
+
           </div>
       </section>
 

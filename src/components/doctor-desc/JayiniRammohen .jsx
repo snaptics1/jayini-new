@@ -15,13 +15,6 @@ const JayiniRammohen = () => {
           <p className="text-light mb-2">
             Renowned for surgical excellence and compassionate patient care.
           </p>
-          <a
-            href="#about"
-            className="btn btn-lg mt-3 text-white"
-            style={{ backgroundColor: "rgb(5 145 191)" }}
-          >
-            Learn More
-          </a>
         </div>
       </section>
 
