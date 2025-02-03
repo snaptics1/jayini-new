@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jayini-new/static/css/main.18b20b3f.css",
+    "main.js": "/jayini-new/static/js/main.356d6594.js",
+    "static/js/453.cce569bd.chunk.js": "/jayini-new/static/js/453.cce569bd.chunk.js",
+    "static/media/Rectangle 48.png": "/jayini-new/static/media/Rectangle 48.f27c4381852fe952f066.png",
+    "static/media/patientEducation.png": "/jayini-new/static/media/patientEducation.c069b8c24b88bd4b4677.png",
+    "static/media/choose-bg.png": "/jayini-new/static/media/choose-bg.5057a61a501553ce5bcf.png",
+    "static/media/services.png": "/jayini-new/static/media/services.3351693a3b42f19e91d1.png",
+    "static/media/image 49.png": "/jayini-new/static/media/image 49.029c0910e127a044056a.png",
+    "static/media/Frame (2).png": "/jayini-new/static/media/Frame (2).bb1b8860b518d98c0d47.png",
+    "static/media/Frame 64.png": "/jayini-new/static/media/Frame 64.294b7beb1c48e5e00848.png",
+    "index.html": "/jayini-new/index.html",
+    "main.18b20b3f.css.map": "/jayini-new/static/css/main.18b20b3f.css.map",
+    "main.356d6594.js.map": "/jayini-new/static/js/main.356d6594.js.map",
+    "453.cce569bd.chunk.js.map": "/jayini-new/static/js/453.cce569bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b20b3f.css",
+    "static/js/main.356d6594.js"
+  ]
+}
