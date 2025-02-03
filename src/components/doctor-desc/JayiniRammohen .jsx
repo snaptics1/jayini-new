@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./doctorprofile.css";
+import { Link } from "react-router-dom";
 
 const JayiniRammohen = () => {
   return (
@@ -197,9 +198,9 @@ const JayiniRammohen = () => {
             goals!
           </h2>
           <button className="btn text-white bg-success">
-            <a className="text-white" href="/contact-us">
+            <Link className="text-white" to="/contact-us">
               Book an Appointment
-            </a>
+            </Link>
           </button>
         </div>
       </section>
