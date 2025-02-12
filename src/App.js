@@ -22,8 +22,8 @@ function App() {
         <Routes>
           <Route path="" element={<Homepage />} />
           <Route path="/about" element={<AboutusPage />} />
-          <Route path="/services" element={<ServicesPage />} />
-          <Route path="/patient-education" element={<PatientEducation />} />
+          <Route path="/patient-education" element={<ServicesPage />} />
+          <Route path="/services" element={<PatientEducation />} />
           <Route path="/contact-us" element={<ContactUspage />} />
           <Route path="/blog-single" element={<Blogsingle />} />
           <Route path="/physiotherapy" element={<PhysiotherapyTabs />} />

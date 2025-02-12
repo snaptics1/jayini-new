@@ -1588,3 +1588,31 @@ a {
 /* patient education tabs */
 
 
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+  color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: transparent;
+  transition: color 0.3s ease;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #0591bf;
+}
+
+.nav-tabs .nav-link.active {
+  color: #0591bf  !important;
+  border-bottom: 3px solid #0591bf  !important;
+  background: transparent;
+}

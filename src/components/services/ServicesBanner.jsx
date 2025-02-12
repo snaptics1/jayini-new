@@ -4,7 +4,7 @@ import CommonBanner from '../CommonBanner'
 const ServicesBanner = () => {
   return (
     <div>
-        <CommonBanner title={"Our Services"} text={"Our Services"}/>
+        <CommonBanner title={"Patient Education"} text={"Our Services"}/>
     </div>
   )
 }

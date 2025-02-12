@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./doctorprofile.css";
 import { Link } from "react-router-dom";
 
 const YashwanthPokala = () => {
+    useEffect(()=>{
+      window.scrollTo(0,0)
+    },[])
   return (
     <div className="doctor-profile-page">
       {/* Hero Section */}
