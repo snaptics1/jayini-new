@@ -10,31 +10,7 @@ const Services1 = () => {
                 <div className="services-abs-image2">
                     <img src="/assets/images/Frame.png" alt="" />
                 </div>
-                {/* <div className="container-lg">
-                    <div className="row p-0 m-0">
-                        <div className="col-md-3 firstDiv">
-                            <div className='services1-image'>
-                                <img src="/assets/images/services4.png" alt="" />
-                            </div>
-                            <p>JOINT REPLACEMENT</p>
-                        </div>
-
-                        <div className="col-md-6 d-flex">
-                            <div className="secondDiv">
-                                <p>Total Knee Replacement
-                                    Surgery</p>
-                                <p>Total Knee Replacement
-                                    Surgery</p>
-                            </div>
-
-                            <div className='largeDiv'>
-                                <p>Total Knee Replacement
-                                    Surgery</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div> */}
+           
                 <div className="container-lg">
                     <div className="row p-0 m-0">
                         <div className="col-md-3 firstDiv">

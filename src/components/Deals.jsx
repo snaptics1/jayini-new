@@ -121,7 +121,7 @@ const Deals = () => {
             position: "absolute",
             top: 0,
             right: 0,
-            width: "30%",
+            width: "20%",
             height: "100%",
             objectFit: "cover",
             zIndex: -1,

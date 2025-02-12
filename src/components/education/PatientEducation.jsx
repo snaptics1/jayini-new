@@ -10,9 +10,9 @@ const PatientEducation = () => {
   }, []);
   return (
     <>
-    <CommonBanner title={'Patient Education'} text={'Patient Education'}/>
+    <CommonBanner title={'Our Services'} text={'Our Services'}/>
     <PatientEducationTabs/>
-    <Education/>
+    {/* <Education/> */}
     </>
   )
 }

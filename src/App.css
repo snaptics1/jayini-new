@@ -106,3 +106,13 @@
       margin: 20px auto;
     }
   }
+  .d-flex.justify-content-between.tabs-content-separation {
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dropdown-toggle::after {
+  visibility: hidden !important;
+}

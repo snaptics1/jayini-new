@@ -107,7 +107,7 @@ const Header = () => {
                   >
                     PATIENT EDUCATION
                   </Link>
-                  <ul className="dropdown-menu">
+                  {/* <ul className="dropdown-menu">
                     <li>
                       <Link className="dropdown-item" to="/patient-education">
                         Shoulder
@@ -148,7 +148,7 @@ const Header = () => {
                         Foot and Ankle
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 
                 <li className="nav-item">

@@ -228,6 +228,7 @@
     background: #08749B;
     margin-top: -3px;
     border-radius: 0 0 10px 10px;
+    min-height: 140px;
 }
 
 @media screen and (max-width:767px) {
