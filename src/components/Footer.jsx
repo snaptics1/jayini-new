@@ -85,7 +85,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="footer-links">
+                <div className="footer-links QuickLinksParent">
                   <h5>Quick Links</h5>
                   <ul>
                     <li>

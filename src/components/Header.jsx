@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import CommonModal from "./CommonModal";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isNavOpen, setNavOpen] = useState(false);
-
+  const location = useLocation()
+  const isActive = (path) => location.pathname === path;
   const handleNavToggle = () => {
     setNavOpen(!isNavOpen);
   };
 
   return (
     <>
-      <div className="navbar-parent">
+ <div className="navbar-parent">
         <div className="logoSection d-flex justify-content-between container py-2 align-items-center">
           <Link to="">
             <div className="navbar-logo">
@@ -20,7 +21,7 @@ const Header = () => {
           </Link>
 
           <div className="d-flex gap-4 align-items-center">
-            <p>Book Appointment</p>
+            <p style={{color:"#000"}}>Book Appointment</p>
             <div>
               <p>
                 {" "}
@@ -54,14 +55,20 @@ const Header = () => {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link" to="" onClick={handleNavToggle}>
+                  <Link
+                    className={`nav-link ${isActive("/") ? "active-link" : ""}`}
+                    to=""
+                    onClick={handleNavToggle}
+                  >
                     HOME
                   </Link>
                 </li>
-               
+
                 <li className="nav-item dropdown">
                   <Link
-                    className="nav-link dropdown-toggle"
+                    className={`nav-link dropdown-toggle ${
+                      isActive("/about") ? "active-link" : ""
+                    }`}
                     to="/about"
                     onClick={handleNavToggle}
                   >
@@ -92,7 +99,9 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
+                    className={`nav-link ${
+                      isActive("/services") ? "active-link" : ""
+                    }`}
                     to="/services"
                     onClick={handleNavToggle}
                   >
@@ -101,59 +110,21 @@ const Header = () => {
                 </li>
                 <li className="nav-item dropdown">
                   <Link
-                    className="nav-link dropdown-toggle"
+                    className={`nav-link dropdown-toggle ${
+                      isActive("/patient-education") ? "active-link" : ""
+                    }`}
                     to="/patient-education"
                     onClick={handleNavToggle}
                   >
                     PATIENT EDUCATION
                   </Link>
-                  {/* <ul className="dropdown-menu">
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Shoulder
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Elbow
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Wrist & Hand
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Knee
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Spine
-                      </Link>
-                    </li>
-                    <li className="dropdownsubitemHoverLast">
-                      <Link className="dropdown-item dropdown-toggle" to="/patient-education">
-                        General
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Hip
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item" to="/patient-education">
-                        Foot and Ankle
-                      </Link>
-                    </li>
-                  </ul> */}
                 </li>
-                
+
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
+                    className={`nav-link ${
+                      isActive("/gallery") ? "active-link" : ""
+                    }`}
                     to="/gallery"
                     onClick={handleNavToggle}
                   >
@@ -162,7 +133,9 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
+                    className={`nav-link ${
+                      isActive("/physiotherapy") ? "active-link" : ""
+                    }`}
                     to="/physiotherapy"
                     onClick={handleNavToggle}
                   >
@@ -171,7 +144,9 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
+                    className={`nav-link ${
+                      isActive("/contact-us") ? "active-link" : ""
+                    }`}
                     to="/contact-us"
                     onClick={handleNavToggle}
                   >

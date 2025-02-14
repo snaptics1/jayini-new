@@ -24,7 +24,7 @@ const ContactDetails = () => {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="contact-left">
-                                    <h4>Contact Details</h4>
+                                    <h4>Contact Details :</h4>
                                     <p>
                                         Get in touch with us for any medical-related
                                         questions and about our projects.

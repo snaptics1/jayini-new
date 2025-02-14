@@ -84,7 +84,7 @@ const ServicePageTabs = () => {
         }
     ];
     
-    
+
 
     const categories = [...new Set(data.map(item => item.category))];
 

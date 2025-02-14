@@ -25,13 +25,13 @@ const Excellence = () => {
                             <div className="col-md-8 bg-white">
                                 <div className='excellence-content'>
                                     <p className='text-success'> <b>ABOUT</b></p>
-                                    <h4>Best Orthopedic Doctor in Hyderabad</h4>
+                                    <h4>Best <span className='text-success fw-bold'>Orthopedic Doctor</span> in Hyderabad</h4>
                                     <p>Jayini P Rammohen is a leading and reputed Orthopedician and Joint Replacement Surgeon. He has over 25+ years of experience.</p> <br />
                                     <p>His expertise includes cruciate ligament reconstruction, frozen shoulder treatment, sports injury treatment/rehabilitation, primary hip & knee arthroplasty, soft tissue injury management, revision hip & knee arthroplasty, articular degenerative disease treatment, Achilles tendon rupture treatment, pain management/counselling, etc.</p>
                                     <div className='excellence-content-sub'>
                                         <div className="onlineAppointment">
                                             <i class="fa-solid fa-calendar-days"></i>
-                                            <h5 className='text-success'> <Link to="/contact-us">Book Appointment</Link> </h5>
+                                            <h5 className='text-success' style={{fontWeight:600}}> <Link to="/contact-us">Book Appointment</Link> </h5>
                                         </div>
                                     </div>
 
