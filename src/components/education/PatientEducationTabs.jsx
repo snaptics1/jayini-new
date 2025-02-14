@@ -83,13 +83,14 @@ const PatientEducationTabs = () => {
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      marginBottom: "20px",
+      marginBottom: "15px",
     },
     imageStyle: {
       borderRadius: "10px",
       maxWidth: "200px",
       height: "auto",
     },
+    
   };
 
   const renderContent = (content) => {
@@ -119,7 +120,7 @@ const PatientEducationTabs = () => {
           {/* Render Subtitles */}
           {section.subtitle1 && (
             <div>
-              <h5>{section.subtitle1}</h5>
+              <h5 style={{fontWeight:600}}>{section.subtitle1}</h5>
               <ul>
                 {section.text.map((item, i) => (
                   <li key={i}>{item}</li>
@@ -129,7 +130,7 @@ const PatientEducationTabs = () => {
           )}
           {section.subtitle2 && (
             <div>
-              <h5>{section.subtitle2}</h5>
+              <h5 style={{fontWeight:600}}>{section.subtitle2}</h5>
               <ul>
                 {section.text.map((item, i) => (
                   <li key={i}>{item}</li>
@@ -139,7 +140,7 @@ const PatientEducationTabs = () => {
           )}
           {section.subtitle3 && (
             <div>
-              <h5>{section.subtitle3}</h5>
+              <h5 style={{fontWeight:600}}>{section.subtitle3}</h5>
               <ul>
                 {section.text.map((item, i) => (
                   <li key={i}>{item}</li>

@@ -6,6 +6,17 @@
     max-width: 1500px;
     margin: auto;
 } */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+  font-family: "DM Sans", serif !important;
+}
+.active-link {
+  color: black !important;
+  border-bottom: 2px solid black;
+}
+.tabs-subtitleSection h5{
+  font-weight: 600;
+}
 @media screen and (min-width:1500px){
     .row.banner-row.text-white.w-100.p-0.m-0 {
         min-width: 1500px;

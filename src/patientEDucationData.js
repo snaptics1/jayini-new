@@ -10,7 +10,7 @@ export const patientEducationData = [
             text: [
               "Shoulder fractures include fracture of shoulder blade (scapula), proximal humerus or top of the upper arm bone, and the collar bone (clavicle).",
             ],
-            image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg",
+            // image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg",
           },
           {
             title: "Causes",
@@ -24,6 +24,7 @@ export const patientEducationData = [
               "Inability to move shoulder",
               "Deformity",
             ],
+            
           },
           {
             title: "Investigations",
@@ -51,13 +52,13 @@ export const patientEducationData = [
               "About 20% of scapula fractures may need surgery when they are associated with proximal humerus or clavicle Fractures. These fractures are fixed with plates and screws.",
             ],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ],
+          // },
         ],
       },
       {
@@ -106,13 +107,13 @@ export const patientEducationData = [
             subtitle2: "Surgical",
             text: ["Arthroscopic surgeries"],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
+          //   ],
+          // },
         ],
       },
       {
@@ -180,13 +181,13 @@ export const patientEducationData = [
             subtitle2: "Surgical",
             text: ["Surgery"],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
+          //   ],
+          // },
         ],
       },
       {
@@ -251,13 +252,13 @@ export const patientEducationData = [
               "Arthroscopy – to break the adhesions.",
             ],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
+          //   ],
+          // },
         ],
       },
       {
@@ -328,13 +329,13 @@ export const patientEducationData = [
               "Resection arthroplasty",
             ],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
+          //   ],
+          // },
         ],
       }
       
@@ -393,13 +394,13 @@ export const patientEducationData = [
               "Radial head/Neck fractures: Plates and screws or excision",
             ],
           },
-          {
-            title: "About Doctor",
-            text: [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
-            ],
-          },
+          // {
+          //   title: "About Doctor",
+          //   text: [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc.",
+          //   ],
+          // },
         ],
       },
       {
@@ -601,13 +602,13 @@ export const patientEducationData = [
               "Trigger release – widening of the tunnels through which the flexor tendons of the fingers pass"
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -702,13 +703,13 @@ export const patientEducationData = [
               "Release of tendon sheath at the base of the thumb."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho, he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Lugi Zagra where he had great exposure and gained knowledge complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -863,13 +864,13 @@ export const patientEducationData = [
               "Patella: Tension band wiring, Screws."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr. Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr. Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -939,13 +940,13 @@ export const patientEducationData = [
               "If there is no pain relief within 2 to 4 days of rest, then the individual should seek medical attention."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr. Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr. Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -996,13 +997,13 @@ export const patientEducationData = [
               "Meniscus repair – Can repair meniscus tears by suturing the torn pieces together. This may take about 3 months to heal."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -1057,13 +1058,13 @@ export const patientEducationData = [
               "Surgery when closed manipulation fails, or when associated with fractures, vascular, or nerve injuries."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {
@@ -1108,13 +1109,13 @@ export const patientEducationData = [
               "Arthroscopic or open ACL reconstruction using either Patellar tendon auto graft or Hamstring tendon auto graft."
             ]
           },
-          {
-            "title": "About Doctor",
-            "text": [
-              "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
-              "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
-            ]
-          }
+          // {
+          //   "title": "About Doctor",
+          //   "text": [
+          //     "Dr. Naveen Reddy is one of the Best Orthopedic Surgeons in Hyderabad. He has over 10 years of experience. Having completed his post graduation in Orthopedics, (D’Ortho and DNB Ortho), he was part of the Apollo Hospitals, Hyderabad – 2009-2017. He has had the experience of working with the Best Orthopaedic Surgeons and gained extensive expertise in managing simple, complex trauma, knee and hip replacements. His patients consider him to be the best orthopedic doctor in Hyderabad. He has a fellowship in Hip & Knee Arthroplasty from world-renowned center Galeazzi Institute of Orthopedics, Milan, Italy under Prof Dr Luigi Zagra where he had great exposure and gained knowledge in complex Hip & Knee Replacements.",
+          //     "The range of services provided by him includes Trauma – Fracture treatment, Knee Joint Replacement, Hip Joint Replacement, Arthroscopy, Sports Injuries Treatment, PRP & BEMAC Injections, Viscosupplementation, Stem Cell Treatment etc."
+          //   ]
+          // }
         ]
       },
       {

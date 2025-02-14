@@ -64,8 +64,8 @@ a {
 }
 
 .banner-left h3 {
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 900;
   padding-bottom: 20px;
 }
 
@@ -186,7 +186,8 @@ a {
 
 .onlineAppointment {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  align-items: baseline;
 }
 
 .onlineAppointment i {
@@ -226,7 +227,12 @@ a {
 }
 
 .education-sub {
-  background: rgb(17 134 173);
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: #fff;
+}
+.onlineAppointment h5{
+  font-size: 17.5px;
 }
 
 .education-image {
@@ -246,7 +252,8 @@ a {
 }
 
 .patient-education-parent {
-  background-color: rgb(242, 242, 241);
+  /* background-color: rgb(242, 242, 241); */
+  background: linear-gradient(135deg, #ffffff, #e0f7fa);
   height: fit-content;
   padding-bottom: 70px;
 }
@@ -260,7 +267,6 @@ a {
 
 .educationText {
   padding: 15px 20px 20px 20px;
-  color: #fff;
   min-height: 200px;
 }
 
@@ -509,6 +515,7 @@ a {
 .footer-address p:nth-child(1) {
   font-weight: 600;
   text-decoration: underline;
+  color: #0591bf;
 }
 
 .footer-parent a {
@@ -618,6 +625,8 @@ a {
 }
 .banner-sub-parent button a {
   color: #fff;
+  font-weight: 600;
+  font-size: 15px;
 }
 .review-content img {
   height: 190px;
@@ -1527,8 +1536,22 @@ a {
 .modal-img {
   object-fit: contain;
 }
+.educationText h5{
+  font-weight: 700;
+  color: #198754;
+}
+.footer-sub-parent h5{
+  color:  rgb(25 135 84);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.QuickLinksParent{
+  width: 60%;
+  margin: auto;
+}
 /* Ensure responsiveness */
 @media (max-width: 768px) {
+
     .Gallryprev-btn,
     .Gallrynext-btn, .Gallryclose-btn{
         height: 30px !important;
@@ -1554,6 +1577,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+
   .about-us-page-parent .counter-sub-parent{
     margin-top: 50px;
   }
@@ -1615,4 +1639,12 @@ a {
   color: #0591bf  !important;
   border-bottom: 3px solid #0591bf  !important;
   background: transparent;
+}
+a.nav-link.active-link {
+  border-bottom: 3px solid #000;
+}
+@media screen and (max-width:1399px){
+  .QuickLinksParent{
+    width: 100%;
+      }
 }
